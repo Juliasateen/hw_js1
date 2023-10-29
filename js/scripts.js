@@ -54,32 +54,31 @@ console.log(a17, typeof a17);
 let a18 = true > 0;
 console.log(a18, typeof a18);
 
-
-let width = 10;
-let height = 23;
-let SPryam = width * height;
+let width = '10см';
+let height = '23см';
+let SPryam = parseInt(width) * parseInt(height);
 console.log(SPryam);
 
-let heightCylinder = 20;
+let heightCylinder = '20м';
 let d = a7;
 const p = 3.14;
-let VCilindra = heightCylinder * p * (d ** 2) / 4;
+let VCilindra = parseInt(heightCylinder) * p * (d ** 2) / 4;
 console.log(VCilindra);
 
-let radius = 5;
-let SKruga = p * (radius ** 2);
+let radius = '5см';
+let SKruga = p * (parseInt(radius) ** 2);
 console.log(SKruga);
 
-let a = 5;
-let b = 7;
-let h = 10;
-let STrap = (a + b) * h / 2;
+let a = '5см';
+let b = '7см';
+let h = '10см';
+let STrap = (parseInt(a) + parseInt(b)) * parseInt(h) / 2;
 console.log(STrap);
 
-let s = 2000000;
-let rate = 10 / 100;
+let s = '2 млн.руб.';
+let rate = '10%';
 let years = 5;
-let Pereplata = s * rate * years;
+let Pereplata = parseInt(s) * parseInt(rate) / 100 * years;
 console.log(Pereplata);
 
 
